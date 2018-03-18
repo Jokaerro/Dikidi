@@ -13,7 +13,7 @@ constructor(internal var router: Router, private var interactor: MainInteractor)
         add<Info>(interactor.getCurrentInfo(),
                 Consumer<Info> {
                     if (it != null) {
-                        view?.showToast(it.title)
+                        view?.showInfo(it)
                     }
                 })
     }

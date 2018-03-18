@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Dikidi</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="menu_main">Главная</string>
+    <string name="menu_shares">Акции</string>
+    <string name="menu_notes">Мои записи</string>
+    <string name="menu_messages">Сообщения</string>
+    <string name="menu_share">Поделиться приложением</string>
+    <string name="menu_business">DIKIDI Business</string>
+    <string name="menu_support">Служба поддержки</string>
 </resources>

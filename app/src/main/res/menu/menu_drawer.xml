@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/first">
+        <item
+            android:id="@+id/my_main"
+            android:icon="@drawable/ic_main"
+            android:checkable="true"
+            android:checked="true"
+            android:title="@string/menu_main" />
+        <item
+            android:id="@+id/my_shares"
+            android:icon="@drawable/ic_shares"
+            android:checkable="true"
+            android:title="@string/menu_shares" />
+        <item
+            android:id="@+id/my_notes"
+            android:icon="@drawable/ic_notes"
+            android:checkable="true"
+            android:title="@string/menu_notes" />
+        <item
+            android:id="@+id/my_messages"
+            android:icon="@drawable/ic_messages"
+            android:checkable="true"
+            android:title="@string/menu_messages"/>
+    </group>
+    <group android:id="@+id/second">
+        <item
+            android:id="@+id/share_link"
+            android:icon="@drawable/ic_share"
+            android:checkable="false"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/business"
+            android:icon="@drawable/ic_business"
+            android:checkable="false"
+            android:title="@string/menu_business" />
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/ic_support"
+            android:checkable="false"
+            android:title="@string/menu_support" />
+    </group>
+</menu>

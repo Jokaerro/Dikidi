@@ -1,7 +1,8 @@
 package inc.tesla.dikidi.modules.main
 
 import inc.tesla.dikidi.application.core.BaseView
+import inc.tesla.dikidi.repository.models.Info
 
 interface MainView: BaseView {
-    fun showToast(message: String)
+    fun showInfo(info: Info)
 }
